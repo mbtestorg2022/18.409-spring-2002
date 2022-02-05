@@ -6,24 +6,431 @@ uid: 3f6a47ea-74a7-53d2-524b-325889a3e5b5
 
 Students in this class were required to scribe lecture notes in order to gain experience writing mathematics. The lecture notes files are included courtesy the students listed below.
 
-| LEC # | TOPICS | LECTURE NOTES | SCRIBES / LECTURERS |
-| --- | --- | --- | --- |
-| 1 | Introduction | &nbsp; |
-| 2 | The Condition Number | ([PDF]({{< baseurl >}}/resources/lect2)) (Courtesy of Steve Weis. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Steve Weis {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 3 | The Largest Singular Value of a Matrix | ([PDF]({{< baseurl >}}/resources/lect3)) (Courtesy of Arvind Sankar. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Arvind Sankar {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 4 | Gaussian Elimination Without Pivoting | ([PDF]({{< baseurl >}}/resources/lect4)) (Courtesy of Matthew Lepinski. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Matthew Lepinski {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 5 | Smoothed Analysis of Gaussian Elimination Without Pivoting | ([PDF]({{< baseurl >}}/resources/lect5)) (Courtesy of Nitin Thaper. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Nitin Thaper {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 6 | Growth Factors of Partial and Complete Pivoting  {{< br >}}  {{< br >}}Speeding up GE of Graphs with Low Bandwidth or Small Separators | ([PDF]({{< baseurl >}}/resources/lect6)) (Courtesy of Brian Sutton. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Brian Sutton {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 7 | Spectral Partitioning Introduced | ([PDF]({{< baseurl >}}/resources/lect7)) (Courtesy of Michael Korn. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Michael Korn {{< br >}}{{< br >}} Lecturer: Shang-Hua Teng {{< br >}}{{< br >}}  |
-| 8 | Spectral Partitioning of Planar Graphs | ([PDF]({{< baseurl >}}/resources/lect8)) (Courtesy of Jan Vondrák. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Jan Vondrák {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 9 |  {{< br >}}{{< br >}} Spectral Parititioning of Well-Shaped Meshes and Nearest Neighbor Graphs {{< br >}}{{< br >}} Turner's Theorem for Bandwidth of Semi-Random Graphs {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lect9)) |  {{< br >}}{{< br >}} Scribe: Stephan Kalhamer {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 10 |  {{< br >}}{{< br >}} Smoothed Analysis and Monotone Adversaries for Bandwidth and Graph Bisection {{< br >}}{{< br >}} McSherry's Spectral Bisection Algorithm {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lect10)) | Lecturer: Daniel Spielman |
-| 11 |  {{< br >}}{{< br >}} Introduction to Linear Programming {{< br >}}{{< br >}} von Neumann's Algorithm, Primal and Dual Simplex Methods {{< br >}}{{< br >}} Duality {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lect11)) (Courtesy of José Correa. Used with permission.) | Scribe: José Correa  {{< br >}}  {{< br >}}Lecturer: Daniel Spielman |
-| 12 |  {{< br >}}{{< br >}} Strong Duality Theorem of Linear Programming {{< br >}}{{< br >}} Renegar's Condition Numbers {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lect12)) (Courtesy of Arvind Sankar. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Arvind Sankar {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 13 | Analysis of von Neumann's Algorithm | ([PDF]({{< baseurl >}}/resources/lect13)) (Courtesy of Nitin Thaper. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Nitin Thaper {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 14 | Worst-Case Complexity of the Simplex Method | ([PDF]({{< baseurl >}}/resources/lect14) ) (Courtesy of Brian Sutton. Used with permission.) | Scribe: Brian Sutton  {{< br >}}  {{< br >}}Lecturer: Daniel Spielman |
-| 15 | The Expected Number of Facets of the Convex Hull of Gaussian Random Points in the Plane | ([PDF]({{< baseurl >}}/resources/lect15)) |  {{< br >}}{{< br >}} Scribe: Mikhail Alekhnovitch {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 16 | The Expected Number of Facets of the Convex Hull of Gaussian Random Points in the Plane (cont.) | ([PDF]({{< baseurl >}}/resources/lect16)) (Courtesy of Mikhail Alekhnovitch. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Mikhail Alekhnovitch {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 17 | The Expected Number of Facets of the Shadow of a Polytope Given by Gaussian Random Constraints | ([PDF]({{< baseurl >}}/resources/lect17)) (Courtesy of Steve Weis. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Steve Weis {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 18 | The Expected Number of Facets of the Shadow of a Polytope Given by Gaussian Random Constraints: Distance Bound | &nbsp; |  {{< br >}}{{< br >}} Scribe: Stephan Kalhamer {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}  |
-| 19 | The Expected Number of Facets of the Shadow of a Polytope Given by Gaussian Random Constraints: Angle Bound and Overview of Phase 1 | ([PDF]({{< baseurl >}}/resources/lect19)) (Courtesy of Matthew Lepinski. Used with permission.) |  {{< br >}}{{< br >}} Scribe: Matthew Lepinski {{< br >}}{{< br >}} Lecturer: Daniel Spielman {{< br >}}{{< br >}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURE NOTES
+{{< thclose >}}
+{{< thopen >}}
+SCRIBES / LECTURERS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+The Condition Number
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect2)) (Courtesy of Steve Weis. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Steve Weis
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+The Largest Singular Value of a Matrix
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect3)) (Courtesy of Arvind Sankar. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Arvind Sankar
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Gaussian Elimination Without Pivoting
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect4)) (Courtesy of Matthew Lepinski. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Matthew Lepinski
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Smoothed Analysis of Gaussian Elimination Without Pivoting
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect5)) (Courtesy of Nitin Thaper. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Nitin Thaper
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Growth Factors of Partial and Complete Pivoting  
+  
+Speeding up GE of Graphs with Low Bandwidth or Small Separators
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect6)) (Courtesy of Brian Sutton. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Brian Sutton
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Spectral Partitioning Introduced
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect7)) (Courtesy of Michael Korn. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Michael Korn
+
+Lecturer: Shang-Hua Teng
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Spectral Partitioning of Planar Graphs
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect8)) (Courtesy of Jan Vondrák. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Jan Vondrák
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Spectral Parititioning of Well-Shaped Meshes and Nearest Neighbor Graphs
+
+Turner's Theorem for Bandwidth of Semi-Random Graphs
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect9))
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Stephan Kalhamer
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Smoothed Analysis and Monotone Adversaries for Bandwidth and Graph Bisection
+
+McSherry's Spectral Bisection Algorithm
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect10))
+{{< tdclose >}}
+{{< tdopen >}}
+Lecturer: Daniel Spielman
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction to Linear Programming
+
+von Neumann's Algorithm, Primal and Dual Simplex Methods
+
+Duality
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect11)) (Courtesy of José Correa. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+Scribe: José Correa  
+  
+Lecturer: Daniel Spielman
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Strong Duality Theorem of Linear Programming
+
+Renegar's Condition Numbers
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect12)) (Courtesy of Arvind Sankar. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Arvind Sankar
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Analysis of von Neumann's Algorithm
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect13)) (Courtesy of Nitin Thaper. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Nitin Thaper
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Worst-Case Complexity of the Simplex Method
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect14) ) (Courtesy of Brian Sutton. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+Scribe: Brian Sutton  
+  
+Lecturer: Daniel Spielman
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+The Expected Number of Facets of the Convex Hull of Gaussian Random Points in the Plane
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect15))
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Mikhail Alekhnovitch
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+The Expected Number of Facets of the Convex Hull of Gaussian Random Points in the Plane (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect16)) (Courtesy of Mikhail Alekhnovitch. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Mikhail Alekhnovitch
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+The Expected Number of Facets of the Shadow of a Polytope Given by Gaussian Random Constraints
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect17)) (Courtesy of Steve Weis. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Steve Weis
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+The Expected Number of Facets of the Shadow of a Polytope Given by Gaussian Random Constraints: Distance Bound
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Stephan Kalhamer
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+The Expected Number of Facets of the Shadow of a Polytope Given by Gaussian Random Constraints: Angle Bound and Overview of Phase 1
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lect19)) (Courtesy of Matthew Lepinski. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Scribe: Matthew Lepinski
+
+Lecturer: Daniel Spielman
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
