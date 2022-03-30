@@ -5,6 +5,7 @@ description: Code file in support of Lecture 6.  This code was presented by the 
   of the course material.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-409-behavior-of-algorithms-spring-2002/5f5d7fc4fe27311c3f1a5553e39c9eef_chew_circle.mat
 file_type: application/octet-stream
+parent_uid: 0d8bbad4-70eb-1815-d276-9f6f831dcd19
 resourcetype: Other
 title: chew_circle.mat
 uid: 5f5d7fc4-fe27-311c-3f1a-5553e39c9eef

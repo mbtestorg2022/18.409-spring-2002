@@ -66,7 +66,7 @@ airfoil2.mat ([MAT]({{< baseurl >}}/resources/airfoil2))
 Gaussian Elimination Without Pivoting
 {{< tdclose >}}
 {{< tdopen >}}
-art.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/art.m))
+art.m ({{% resource_link "14f16e06-356f-e6e9-933a-9817fb49d38a" "M" %}})
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -78,7 +78,7 @@ art.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/
 Smoothed Analysis of Gaussian Elimination Without Pivoting
 {{< tdclose >}}
 {{< tdopen >}}
-art3.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/art3.m))
+art3.m ({{% resource_link "0dcd8a1a-580f-53c5-5227-830b09960fb5" "M" %}})
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -100,7 +100,7 @@ Speeding up GE of Graphs with Low Bandwidth or Small Separators
 
 chew\_circle.mat ([MAT]({{< baseurl >}}/resources/chew_circle))
 
-convert.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/convert.m))
+convert.m ({{% resource_link "5a763ad7-2653-967e-b8fb-f0df086906f9" "M" %}})
 
 
 {{< tdclose >}}
@@ -114,7 +114,7 @@ convert.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/to
 Spectral Partitioning Introduced
 {{< tdclose >}}
 {{< tdopen >}}
-crossedGrid.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/crossedGrid.m))
+crossedGrid.m ({{% resource_link "017e1b8c-3e56-d2a7-6ba9-b8a399db5d94" "M" %}})
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -170,9 +170,9 @@ McSherry's Spectral Bisection Algorithm
 {{< tdopen >}}
 
 
-fastfiedler.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/fastfiedler.m))
+fastfiedler.m ({{% resource_link "12cc7004-534f-fe42-cc79-3db5eae8cd53" "M" %}})
 
-gauss.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/gauss.m))
+gauss.m ({{% resource_link "0736c035-5510-c853-0273-93d1703a4fa5" "M" %}})
 
 
 {{< tdclose >}}
@@ -196,11 +196,11 @@ Duality
 {{< tdopen >}}
 
 
-graph2A.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/graph2A.m))
+graph2A.m ({{% resource_link "45d553d5-15f6-cc81-691b-df009093e37f" "M" %}})
 
-kahan.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/kahan.m))
+kahan.m ({{% resource_link "0f51881c-7aef-eeba-1e21-65b146912dbf" "M" %}})
 
-kahan2.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/kahan2.m))
+kahan2.m ({{% resource_link "0838e735-8f3a-2d05-6e9f-f86007a4b5f3" "M" %}})
 
 
 {{< tdclose >}}
@@ -222,7 +222,7 @@ Renegar's Condition Numbers
 {{< tdopen >}}
 
 
-laplacian.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/laplacian.m))
+laplacian.m ({{% resource_link "0eef9771-75fa-2ac6-a649-8e7472d3054a" "M" %}})
 
 mcrack.mat ([MAT]({{< baseurl >}}/resources/mcrack))
 
@@ -250,7 +250,7 @@ n.mat ([MAT]({{< baseurl >}}/resources/n))
 Worst-Case Complexity of the Implex Method
 {{< tdclose >}}
 {{< tdopen >}}
-noPivot.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/noPivot.m))
+noPivot.m ({{% resource_link "e91ff820-34dd-358b-870c-a2974a09cc02" "M" %}})
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -262,7 +262,7 @@ noPivot.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/to
 The Expected Number of Facets of the Convex Hull of Gaussian Random Points in the Plane
 {{< tdclose >}}
 {{< tdopen >}}
-ppConj.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/ppConj.m))
+ppConj.m ({{% resource_link "e34aeabe-1327-7019-1fba-c7567615f005" "M" %}})
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -286,7 +286,7 @@ ppDat.mat ([MAT]({{< baseurl >}}/resources/ppdat))
 The Expected Number of Facets of the Shadow of a polytope Given by Gaussian random Constraints
 {{< tdclose >}}
 {{< tdopen >}}
-spectShow.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/spectShow.m))
+spectShow.m ({{% resource_link "e08db447-8044-bd8a-db20-de19cd5f71f8" "M" %}})
 {{< tdclose >}}
 
 {{< trclose >}}
@@ -298,7 +298,7 @@ spectShow.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/
 The Expected Number of Facets of the Shadow of a Polytope Given by Gaussian Random Constraints: Distance Bound
 {{< tdclose >}}
 {{< tdopen >}}
-spectShow1.m ([M](/courses/mathematics/18-409-behavior-of-algorithms-spring-2002/tools/spectShow1.m))
+spectShow1.m ({{% resource_link "f818079f-b7a4-1a45-3f67-b9c4cc3e70e5" "M" %}})
 {{< tdclose >}}
 
 {{< trclose >}}
